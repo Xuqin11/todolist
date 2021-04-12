@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todolist.css">
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="top">
+            <span class="logo">
+                To Do
+            </span>
+            <span class="search">
+                <input type="text">
+                <button>搜索</button>
+            </span>
+            <span class="user">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-yonghu"></use>
+                  </svg>
+            </span>
+            <span class="id"></span>
+        </div>
+        <div class="sideBar">
+            <div class="sideBar-first">
+                <div class="oneday current_1">我的一天</div>
+                <div class="important">重要</div>
+                <div class="plan">已计划日程</div>
+                <div class="distribute">已分配给你</div>
+                <div class="mission">任务</div>
+            </div>
+            <div class="sideBar-second">
+                <div class="addList">新建清单</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="oneday_container">
+                <h3>我的一天</h3>
+                <h6>日期</h6>
+                <li>
+                    <span>1111</span>
+                    <input type="text">
+                </li>
+            </div>
+            <div class="important_container">
+                <h3>重要</h3>
+                <li>
+                    <span>1111</span>
+                    <input type="text">
+                </li>
+            </div>
+            <div class="plan_container">
+                <h3>已计划日程</h3>
+                <li>
+                    <span>1111</span>
+                    <input type="text">
+                </li>
+            </div>
+            <div class="distribute_container">
+                <h3>已分配给你</h3>
+                <li>
+                    <span>1111</span>
+                    <input type="text">
+                </li>
+            </div>
+            <div class="mission_container">
+                <h3>任务</h3>
+                <li>
+                    <span>+</span>
+                    <input type="text" value="添加任务">
+                </li>
+                <ul class="unfinish">
+                    
+                </ul>
+                <ul class="finish">
+
+                </ul>
+            </div>
+        </div>
+        <!-- 登录注册窗口 -->
+        <div class="userWindow">
+            <div class="userWindow_top">
+                <span>X</span>
+            </div>
+            <div class="userInformation">
+                用户名：<input type="text" class="userName">
+                密码：<input type="password" class="password">
+            </div>
+            <div class="user_button">
+                <button class="btn_register">注册</button>
+                <button class="btn_login">登录</button>
+            </div>
+        </div>
+        <!-- 右键菜单 -->
+        <div class="menu">
+            <li>修改</li>
+            <li>删除</li>
+        </div>
+    </div>
+</body>
+<script src="font/iconfont.js"></script>
+<script src='todolist.js'></script>
+
+</html>

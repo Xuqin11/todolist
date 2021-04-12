@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+button {
+    outline: none;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+
+.wrap {
+    width: 1536px;
+    height: 722px;
+    margin: 0 auto;
+    background-color: #222;
+}
+
+.top {
+    width: 1536px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(0, 120, 215);
+}
+
+.logo {
+    float: left;
+    width: 60px;
+    height: 50px;
+    margin-left: 40px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(0, 120, 215);
+    cursor: default;
+}
+
+.search {
+    float: left;
+    width: 480px;
+    height: 50px;
+    margin-left: 400px;
+}
+
+.search input {
+    width: 420px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 4px;
+    padding-right: 50px;
+    border-radius: 3px;
+    background-color: rgb(195, 211, 247);
+}
+
+.search button {
+    width: 38px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-left: -45px;
+    background-color: #fff;
+}
+
+.user {
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 380px;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(250,250,250);
+}
+
+.user:hover {
+    cursor: pointer;
+}
+
+.name {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.sideBar {
+    float: left;
+    width: 300px;
+    height: 672px;
+    background-color: rgb(244, 244, 244);
+}
+
+.sideBar-first {
+    margin-bottom: 10px;
+}
+
+.sideBar-first:nth-child(1) {
+    margin-top: 10px;
+}
+
+.sideBar-first div {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.sideBar-first div:hover {
+    background-color: rgb(250,250,250);
+    cursor: pointer;
+}
+
+.sideBar-first>.current_1:hover {
+    background-color: rgb(237,237,237);
+}
+
+.sideBar-second div {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.current_1 {
+    background: rgb(237, 237, 237);
+}
+
+.main {
+    float: left;
+    width: 1236px;
+    height: 672px;
+    background-color: rgb(255, 255, 255);
+}
+
+.oneday_container {
+    display: block;
+    float: left;
+    width: 1196px;
+    height: 632px;
+    padding: 20px;
+}
+
+.oneday_container li {
+    height: 50px;
+    margin-top: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.oneday_container li input {
+    width: 1100px;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+}
+
+.important_container {
+    display: none;
+    float: left;
+    width: 1196px;
+    height: 632px;
+    padding: 20px;
+}
+
+.important_container li {
+    height: 50px;
+    margin-top: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.important_container li input {
+    width: 1100px;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+}
+
+.plan_container {
+    display: none;
+    float: left;
+    width: 1196px;
+    height: 632px;
+    padding: 20px;
+}
+
+.plan_container li {
+    height: 50px;
+    margin-top: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.plan_container li input {
+    width: 1100px;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+}
+
+.distribute_container {
+    display: none;
+    float: left;
+    width: 1196px;
+    height: 632px;
+    padding: 20px;
+}
+
+.distribute_container li {
+    height: 50px;
+    margin-top: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.distribute_container li input {
+    width: 1100px;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+}
+
+.mission_container {
+    display: none;
+    float: left;
+    width: 1196px;
+    height: 632px;
+    padding: 20px;
+}
+
+.mission_container li {
+    height: 50px;
+    margin-top: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.mission_container li span {
+    font-size: 24px;
+    color: rgb(0,120,215);
+}
+
+.mission_container li span:hover {
+    color: rgb(0,120,215);
+    cursor: pointer;
+}
+
+.mission_container li input {
+    width: 1100px;
+    height: 32px;
+    border: none;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(0,120,215);
+    outline: none;
+    background-color: transparent;
+}
+
+.finish {
+    margin-top: 20px;
+}
+
+.finish li {
+    text-decoration: line-through;
+    color: #767678
+}
+
+.unfinish svg,
+.finish svg {
+    margin-right: 10px;
+    color: rgb(0,120,215);
+}
+
+.unfinish svg:hover,
+.finish svg:hover {
+    cursor: pointer;
+}
+
+.unfinish li:hover,
+.finish li:hover {
+    cursor: pointer;
+    background-color: rgb(237,237,237);
+}
+
+.userWindow {
+    display: none;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.userWindow_top {
+    height: 25px;
+    /* padding: 10px; */
+    /* background-color: red; */
+}
+
+.userWindow_top span {
+    float: right;
+    font-size: 20px;
+}
+
+.userWindow_top span:hover {
+    cursor: pointer;
+}
+
+.userInformation {
+    margin-top: 40px;
+    /* background-color: blue; */
+}
+
+.userInformation input {
+    height: 24px;
+    width: 266px;
+    border: 1px solid rgb(0,120,215);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.userInformation input:nth-child(2) {
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.user_button {
+    width: 350px;
+    height: 30px;
+    margin-top: 30px;
+    /* background-color: green; */
+}
+
+.userInformation:hover {
+    cursor: default;
+}
+
+.user_button button {
+    width: 70px;
+    height: 30px;
+    border: 1px solid rgb(0, 120, 215);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 120, 215);
+}
+
+.user_button button:nth-child(1) {
+    margin-left: 70px;
+}
+
+.user_button button:nth-child(2) {
+    margin-left: 70px;
+}
+
+.user_button button:hover {
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    display: none;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #000;
+    background-color: #fff;
+}
+
+.menu li {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    background-color: rgb(245,245,245);
+}
+
+.menu li:nth-child(1) {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #000;
+}
+
+.menu li:nth-child(2) {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

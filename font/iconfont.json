@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1920558",
+      "name": "垃圾桶",
+      "font_class": "lajitong",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "9649038",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "10659063",
+      "name": "圆圈",
+      "font_class": "yuanquan",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    }
+  ]
+}
